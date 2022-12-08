@@ -31,5 +31,7 @@ public class ErrorValidation extends BaseTest {
 		CartDisplayPage cartdisplaypage = productdisplaypage.goTocart();
 		Boolean match = cartdisplaypage.getCartList("ZARA COAT 3");
 		Assert.assertTrue(match);
+		Assert.assertTrue(match);
+		Assert.assertTrue(match);
 	}
 }
