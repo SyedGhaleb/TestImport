@@ -36,5 +36,7 @@ public class ErrorValidation extends BaseTest {
 		Assert.assertTrue(match);
 		Assert.assertTrue(match);
 		Assert.assertTrue(matchnew);
+
+		Assert.assertTrue(matchnew);
 	}
 }
